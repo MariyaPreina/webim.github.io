@@ -340,7 +340,38 @@ button:focus {
     margin-right: 20px;
 }
 
+.header__logo {
+    height: 70px;
+}
+
+.header__logo-img {
+    height: 100%;
+}
+
 @media (max-width: 1300px) {
+    .header {
+        font-size: 18px;
+    }
+
+    .header__left {
+        width: 31%;
+    }
+
+    .header__right {
+        width: 69%;
+        padding-right: 30px;
+    }
+
+    .user-nav__inner {
+        padding-left: 30px;
+    }
+
+    .user-nav__link:not(:last-child) {
+        margin-right: 30px;
+    }
+}
+
+@media (max-width: 992px) {
     .header {
         display: none;
     }
@@ -352,7 +383,7 @@ button:focus {
     display: none;
 }
 
-@media (max-width: 1300px) {
+@media (max-width: 992px) {
     .header-sm {
         width: 100%;
         height: 130px;
